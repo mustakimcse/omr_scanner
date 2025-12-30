@@ -1,14 +1,14 @@
 {
   "builds": [
     {
-      "src": "project_name/wsgi.py",
+      "src": "omr_scanner/wsgi.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "project_name/wsgi.py"
+      "dest": "omr_scanner/wsgi.py"
     }
   ]
 }
